@@ -1,0 +1,201 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.nav1 {
+  margin-bottom: 45px;
+}
+.nav1 ul li {
+  list-style: none;
+}
+.nav1 ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  font-weight: 700;
+  margin-left: 95px;
+}
+.product {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+.title {
+  font-size: 52px;
+}
+.details {
+  font-size: 16px;
+}
+.paratag {
+  text-align: left;
+  font-size: 14px;
+  font-weight: 700;
+}
+.articale {
+  width: 582px;
+  /* height: 270px; */
+}
+/* .photo {
+  width: 440px;
+  height: 414px;
+} */
+.photo img {
+  width: 440px;
+  height: 414px;
+}
+.btn-cta-freequote {
+  background-color: deeppink;
+  color: white;
+  border-radius: 41px;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  width: 24px;
+  height: 24px;
+}
+
+/* Second section various com logo */
+.logocontainer {
+  width: 80%;
+  margin: 0 auto;
+}
+.comlogo {
+  display: flex;
+  justify-content: space-around;
+  /* stransition: width 2s; */
+}
+/* .comlogo:hover {
+  width: 300px;
+} */
+.comlogo img {
+  width: 84px;
+  height: 25.28px;
+}
+/* .fa-arrow-right {
+  color: white;
+  width: 16px;
+} */
+/* Second section logo part end */
+/* Third Section start */
+.cardmaindiv {
+  width: 80%;
+  margin: 0 auto;
+}
+/* article .card:hover {
+  border: 1px solid blue;
+} */
+.popularsection {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+}
+.fastar {
+  color: #fb8200;
+  width: 16px;
+  height: 16px;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  width: 329px;
+
+  /* height: 509px; */
+}
+.card {
+  box-shadow: 4px 4px 30px;
+  padding-top: 15px;
+  padding-left: 15px;
+  margin-right: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+}
+.photoCard img {
+  margin-right: 15px;
+}
+.seebtn {
+  display: flex;
+  align-items: end;
+}
+
+.btntax {
+  color: deeppink;
+  text-decoration: none;
+  margin-top: 50px;
+  font-size: 16px;
+  font-weight: 700;
+  /* text-align: end; */
+  width: 24px;
+  height: 24px;
+}
+.card:hover {
+  transform: scale(1.5);
+  transition: transform 25 ease-in-out;
+  overflow: hidden;
+}
+
+/* Third Section end */
+/* four section design start */
+.btnrecadd {
+  background-color: deeppink;
+  color: white;
+  text-decoration: none;
+  padding: 10px 25px;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  width: 24px;
+  height: 24px;
+}
+.flaxapply {
+  text-align: right;
+}
+/* four section design start */
+/* Footer section design */
+.foot {
+  background-color: #0a0826;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+}
+.footerh1 {
+  padding-top: 50px;
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+}
+.footerh2 {
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.footerh3 a {
+  text-decoration: none;
+  /* background-color: #0a0826; */
+}
+.footermedia {
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+  margin: 5px 2px;
+  border-radius: 50%;
+  padding-top: 12px;
+  background-color: rgb(104, 104, 104);
+  width: 32px;
+  height: 32px;
+  max-height: 25px;
+}
+
+/* media query  */
+
+/* @media only screen and (max-width: 688px) {
+  .product {
+  }
+} */
