@@ -15,7 +15,7 @@ body {
   color: black;
   font-size: 24px;
   font-weight: 700;
-  margin-left: 95px;
+  margin-left: 75px;
 }
 .product {
   display: flex;
@@ -158,7 +158,7 @@ body {
   padding: 10px 25px;
   font-size: 16px;
   font-weight: 700;
-  text-align: center;
+  /* text-align: center; */
   width: 24px;
   height: 24px;
 }
@@ -202,9 +202,33 @@ body {
   max-height: 25px;
 }
 
-/* media query  */
+/* media query used for responsive   */
 
-/* @media only screen and (max-width: 688px) {
+@media only screen and (max-width: 688px) {
   .product {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
   }
-} */
+}
+
+@media only screen and (mim-width: 689px) and (mim-width: 991px) {
+  .product {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (mim-width: 991px) and (mim-width: 1312px) {
+  .product {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+  }
+}
